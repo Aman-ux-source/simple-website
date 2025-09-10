@@ -83,8 +83,10 @@ pipeline {
             // You can add failure notifications here
         }
         always {
+node {
             echo 'Cleaning up workspace...'
             cleanWs()
+}
         }
     }
 }
