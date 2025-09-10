@@ -15,7 +15,6 @@ pipeline {
             steps {
                 echo 'Cloning repository from GitHub...'
                 git branch: 'main', url: "https://github.com/Aman-ux-source/simple-website.git"
-credentialsId: 'github..'
             }
         }
         
