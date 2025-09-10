@@ -3,7 +3,7 @@ pipeline {
     
     environment {
         // Define environment variables for Docker Hub credentials
-        DOCKERHUB_CREDENTIALS = credentials('docker-hub-credentials')
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub')
         // Define your Docker Hub username and image name
         DOCKER_IMAGE = 'your-dockerhub-username/your-image-name'
         // Define your GitHub repository URL
